@@ -29,5 +29,5 @@ echo -e "@echo off\r
 %~dp0/win32-bin/qjs.exe %~dp0/dist/main.js %*\r
 " > "$BUILD_PATH/win32/shmupcc-sht.bat"
 
-tar -czf "build/shmupcc-sht-$VER-$DATE-linux.tar.gz" "$BUILD_PATH/linux"
-tar -czf "build/shmupcc-sht-$VER-$DATE-win32.zip" "$BUILD_PATH/win32"
+tar -C "$BUILD_PATH" -czf "build/shmupcc-sht-$VER-$DATE-linux.tar.gz" "linux"
+tar -C "$BUILD_PATH" -czf "build/shmupcc-sht-$VER-$DATE-win32.zip" "win32"
