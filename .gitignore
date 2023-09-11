@@ -5,3 +5,5 @@ node_modules
 !package.json
 pnpm-lock.yaml
 package-lock.json
+build
+win32-bin
