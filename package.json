@@ -1,0 +1,6 @@
+{
+	"devDependencies": {
+		"@types/quickjs": "github:Gottox/quickjs-dts",
+		"typescript": "^5.2.2"
+	}
+}
