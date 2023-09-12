@@ -3,6 +3,7 @@ node_modules
 *.sht
 *.json
 !package.json
+!tsconfig.json
 pnpm-lock.yaml
 package-lock.json
 build
